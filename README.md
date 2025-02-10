@@ -1,4 +1,4 @@
-# phpclient-tailscale
+# php-client / tailscale
 
 ## Development is suspended.
 

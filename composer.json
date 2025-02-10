@@ -1,5 +1,5 @@
 {
-    "name": "phpclient/tailscale",
+    "name": "php-client/tailscale",
     "description": "PHP Client for Tailscale",
     "type": "library",
     "license": "MIT",
