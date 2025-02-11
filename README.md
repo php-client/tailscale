@@ -26,11 +26,11 @@ $tailscale = new Tailscale(
     token: 'YOUR_API_TOKEN',
 );  
 
-$devices = $tailscale->api->devices()->listTailnetDevices(
+$response = $tailscale->api->devices()->listTailnetDevices(
     tailnet: '-', // Default tailnet
 );
 
-foreach ($devices as $device) {
+foreach ($response->json('devices') as $device) {
     echo $device['name'];
 }
 ```
