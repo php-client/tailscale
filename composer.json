@@ -1,6 +1,6 @@
 {
     "name": "php-client/tailscale",
-    "description": "PHP Client for Tailscale",
+    "description": "PHP Client for Tailscale API",
     "keywords": ["tailscale", "api", "client", "saloon"],
     "type": "library",
     "license": "MIT",
